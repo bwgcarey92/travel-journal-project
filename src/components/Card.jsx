@@ -1,21 +1,20 @@
 import React from 'react'
-import mtFuji from '../images/mt-fuji.png'
-import location from '../images/location.png'
+import location from '../../public/images/location.png'
 
-export default function Card(){
+export default function Card(props){
     return (
         <div className='card-container'>
-            <img src={mtFuji} className='card-img' />
+            <img src={props.item.imageUrl} className='card-img' />
             <div className='card-info'>
                 <div className='location-info'>
                     <img src={location} className='location-icon' />
-                    <p className='destination'>Japan</p>
+                    <p className='destination'>{props.item.location}</p>
                     <a href='#' className='googlemaps-anchor'>View on Google Maps</a>
                 </div>
-                <h2 className='country'>Mount Fuji</h2>
+                <h2 className='country'>{props.item.title}</h2>
                 <div></div>
-                <p className='date'>12 Jan, 2021 - 24 Jan, 2021</p>
-                <p className='destination-descr'>Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
+                <p className='date'>{props.item.startDate} - {props.item.endDate}</p>
+                <p className='destination-descr'>{props.item.description}</p>
             </div>
         </div>
     )

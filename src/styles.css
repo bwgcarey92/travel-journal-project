@@ -40,22 +40,22 @@ body {
   padding: 1em 0;
 }
 .card-img{
-  max-width: 7.8em;
+  max-width: 8em;
   border-radius: 5px;
 }
 .card-info{
-  font-size: 0.75rem;
+  font-size: 0.825rem;
   padding: 1em;
 }
 
 .location-info{
   display: flex;
   align-items: center;
-  font-size: 11px;
 }
 
 .location-icon{
   width: 1em;
+  margin-right: 0.5em;
 }
 .destination{
   letter-spacing: .2em;

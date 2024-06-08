@@ -1,10 +1,4 @@
-import haLongBay from "./images/ha-long-bay.png"
-import bali from "./images/bali.png"
-import greatPyramid from "./images/great-pyramid.png"
-import barcelona from "./images/barcelona.png"
-import venice from "./images/venice.png"
-import machuPicchu from "./images/machu-picchu.png"
-import santorini from "./images/santorini.png"
+
 
 
 export default [
@@ -15,7 +9,8 @@ export default [
         startDate: "12 Jan, 2021",
         endDate: "24 Jan, 2021",
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+        imageUrl: "../public/images/mt-fuji.png",
+        id: "1"
     },
     {
         title: "Hạ Long Bay",
@@ -24,7 +19,8 @@ export default [
         startDate: "08 Nov, 2023",
         endDate: "10 Nov, 2023",
         description: "Ha Long Bay, a UNESCO World Heritage site in Vietnam, features emerald waters, towering limestone islands, and lush rainforests. It's perfect for kayaking, rock climbing, and exploring ancient caves.",
-        imageUrl: {haLongBay}
+        imageUrl: "../public/images/ha-long-bay.png",
+        id: "2"
     },
     {
         title: "Bali",
@@ -33,7 +29,8 @@ export default [
         startDate: "04 Jan 2023",
         endDate: "12 Jan 2023",
         description: "Bali, Indonesia's famed island paradise, offers stunning beaches, vibrant culture, and lush landscapes. Known for its temples, rice terraces, and surf spots, Bali is perfect for relaxation and adventure.",
-        imageUrl: {bali}
+        imageUrl: "../public/images/bali.png",
+        id: "3"
     },
     {
         title: "The Great Pyramid of Giza",
@@ -42,7 +39,9 @@ export default [
         startDate: "15 Dec 2022",
         endDate: "20 Dec 2022",
         description: "The Great Pyramid of Giza, an ancient wonder in Egypt, stands as a testament to monumental engineering. Built over 4,500 years ago, it remains one of the world's most iconic historical sites.",
-        imageUrl: {greatPyramid}
+        imageUrl: "../public/images/great-pyramid.png",
+        id: "4"
+
     },
     {
         title: "Barcelona",
@@ -51,7 +50,8 @@ export default [
         startDate: "21 Jun 2023",
         endDate: "30 Jun 2023",
         description: "Barcelona, a vibrant city in Spain, is renowned for its unique architecture, including Gaudí's masterpieces, lively beaches, and rich cultural scene. It's a hub of art, cuisine, and history, perfect for any traveler.",
-        imageUrl: {barcelona}
+        imageUrl: "../public/images/barcelona.png",
+        id: "5"
     },
     {
         title: "Venice",
@@ -60,7 +60,8 @@ export default [
         startDate: "07 Jul 2023",
         endDate: "14 Jul 2023",
         description: "Venice, Italy, is a romantic city known for its winding canals, historic architecture, and iconic gondolas. Famous landmarks like St. Mark's Basilica and the Grand Canal make it a must-visit destination.",
-        imageUrl: {venice}
+        imageUrl: "../public/images/venice.png",
+        id: "6"
     },
     {
         title: "Machu Picchu",
@@ -69,7 +70,8 @@ export default [
         startDate: "12 Nov 2021",
         endDate: "14 Nov 2021",
         description: "Machu Picchu, an ancient Incan city in Peru, is perched high in the Andes Mountains. Known for its stunning ruins and breathtaking views, it’s a bucket-list destination for history and adventure enthusiasts.",
-        imageUrl: {machuPicchu}
+        imageUrl: "../public/images/machu-picchu.png",
+        id: "7"
     },
     {
         title: "Santorini",
@@ -78,6 +80,7 @@ export default [
         startDate: "20 Jul 2023",
         endDate: "30 Jul 2023",
         description: "Santorini, a stunning Greek island in the Aegean Sea, is famous for its whitewashed buildings, blue-domed churches, and breathtaking sunsets. It's a top destination for romance, relaxation, and scenic views.",
-        imageUrl: {santorini}
+        imageUrl: "../public/images/santorini.png",
+        id: "8"
     }
 ]

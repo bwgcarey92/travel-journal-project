@@ -1,5 +1,5 @@
 import React from 'react'
-import earthLogo from '../images/earth-logo-white.png'
+import earthLogo from '../../public/images/earth-logo-white.png'
 export default function NavBar() {
     return (
         <div className='nav-bar-container'>
